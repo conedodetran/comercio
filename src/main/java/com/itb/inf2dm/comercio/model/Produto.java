@@ -11,4 +11,10 @@ public class Produto {
 	// public : Modificador de acesso livre para todas as classes.
 	// private : Modificador de acesso restrito apenas para membros da
 	// da própria classe. Entende-se por "membros" (atributos e/ou métodos)
+
+	// Métodos Setter's e Getter's : Adicionar e Recuperar dados do atributo "RESPECTIVAMENTE"
+	
+	public void setId(Long id) {
+		this.id = id;
+	}
 }
