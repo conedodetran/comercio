@@ -10,8 +10,6 @@
     </head>
     <body>
         <div>
-
-
             <div class="container bg-light mt-4">
                 <div>
                     <i class="fas fa-cart-plus ml-2"></i>
@@ -28,9 +26,21 @@
                                 <th>Nome</th>
                                 <th>Código de Barras</th>
                                 <th>Preço</th>
+                                <th>Descrição</th>
                                 <th>Editar</th>
                             </tr>
                         </thead>
+                        	<tr th:each="produto : ${listaDeProdutos}">
+                        		<td th:text="${produto.id}"></td>
+                        		<td th:text="${produto.nome}"></td>
+                        		<td th:text="${produto.codigoBarras}"></td>
+                        		<td th:text="${produto.preco}"></td>
+                        		<td th:text="${produto.descricao}"></td>
+                        		<td>
+                        			<a href="#">Editar</a>
+                        		
+                        		</td>
+                        	</tr>
                     </table>
             </div>
 
