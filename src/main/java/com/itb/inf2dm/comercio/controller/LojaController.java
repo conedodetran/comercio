@@ -21,10 +21,10 @@ public class LojaController {
 		
 		Produto p1 = new Produto();
 		p1.setId = (20l);
-		p1.setNome("rtx 3060");
+		p1.setNome("RTX 3060 TI 16GB");
 		p1.setCodigoBarras("JHDYEJOUSNEU5411");
 		p1.setPreco(3654.12);
-		p1.setDescricao("COMPUTADOR TERABYTE");
+		p1.setDescricao("PLACA DE VÍDEO");
 		p1.setStatus(true);
 		
 		listaDeProdutos.add(p1);
@@ -32,10 +32,10 @@ public class LojaController {
 		
 		Produto p2 = new Produto();
 		p2.setId = (21l);
-		p2.setNome("rx 6750 xt");
-		p2.setCodigoBarras("JHDYEJOUSNEU25411");
-		p2.setPreco(3654.12);
-		p2.setDescricao("COMPUTADOR PICHAU GAMER");
+		p2.setNome("MOTO E9");
+		p2.setCodigoBarras("QWDKOPYHCUGBDSDDHSAU");
+		p2.setPreco(2056.90);
+		p2.setDescricao("CELULAR");
 		p2.setStatus(false);
 		
 	    listaDeProdutos.add(p2);
